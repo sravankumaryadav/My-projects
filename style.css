@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-img{
+    background-image: url(https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg);
+    height: 80vh;
+    width: 100%;
+    /* position: absolute; */
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    filter: brightness(150%);
+}
+.container2{
+    margin: 10px;
+}
+.container2 img{
+    height: 20px;
+    margin-top: 20px;
+}
+
+#language{
+    background-color: black;
+    color: white;
+    font-weight: 1rem;
+    padding: 5px;
+}
+.logo img{
+    margin-top: 20px;
+     height: 61px;
+    width: 186px;
+}
+select{
+    border: none;
+}
+.bt{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 5px;
+}
+.main{
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.main h1{
+    font-size: 55px;
+}
+h1{
+    font-size: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#mainp{
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#mail{
+    font-size: x-large;
+    margin: 10px;
+    border-radius: 5px;
+    opacity: 0.3;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#btn{
+    font-size:large;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+#btn img{
+    fill: white;
+}
+input{
+    border: 2px solid gray;
+}
+.line{
+    height: 5px;
+    width: 100%;
+    background-color: grey;
+    border: 2px solid grey;
+}
+.container3{
+    height: 50vh;
+    display: flex;
+    justify-content:space-around;
+    color: white;
+    background-color: black;
+    /* position: relative; */
+}
+.right{
+  position: relative;
+  width: 100%;
+}
+.right img{
+    height: 400px;
+    margin-left: 1010px;
+    position: relative;
+    z-index: 1;
+}
+.right .vid{
+    height: 380px;
+    width: 400px;
+    position: absolute;
+  left: 1080px;
+  z-index: 0;
+} 
+.left{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -600px;
+}
+#mainp1{
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.container4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 60vh;
+    background-color: black;
+    color: white;
+    margin-right: 0px;
+}
+
+.left4{
+    display: flex;
+    flex-direction: row;
+}
+.box{
+   position: absolute;
+   border: 2px solid silver;
+   display: flex;
+   margin: -123px;
+    margin-left: 150px;
+    border-radius: 15px;
+    z-index: 1;
+    background-color: black;
+}
+.box img{
+    height: 80px;
+    padding: 10px;
+    padding-left: 10px;
+}
+#boxright{
+    margin: 20px;
+
+}
+#boxright h3{
+    font-size: medium;
+    text-align: center;
+}
+#boxright a{
+    text-decoration: none;
+}
+.vide video{
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.right4{
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    margin-left: 60rem;
+}
+#rh1{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 500px;
+    margin-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+#rh1 h1{
+    font-size: 50px;
+}
+#rp{
+    margin-top: 50px;
+    height: 100px;
+    width: 500px;
+    font-size: 25px;
+}
+.container5{
+    display: flex;
+    height: 60vh;
+    background-color: black;
+    color: white;
+    row-gap: 50px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.pc5{
+     position: relative;
+     z-index: 1;
+}
+.vid5{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -400px;
+    height: 51%;
+}
+#vid5{
+    height: 80%;
+    width: 90%;
+    z-index: -1;
+}
+.left5{
+    position: relative;
+    width: 550px;
+    height: auto; 
+}
+.left5 h1{
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.left5 p{
+    font-size: 25px;
+}
+.container6{
+    display: flex;
+    height: 60vh;
+    background-color: black;
+    color: white;
+    row-gap: 50px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.right6{
+    position: relative;
+    width: 600px;
+    height: auto; 
+}
+.right6 h1{
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.right6 p{
+    font-size: 22px;
+}
+.container7{
+    text-align: center;
+    height: 100vh;
+    color: white;
+    background-color: black;
+}
+.container7 h1{
+    padding-top: 50px;
+    font-size: 60px;
+}
+#question{
+    width: 50%;
+    height: 80px;
+    background-color: rgb(50, 46, 46);
+    margin: 20px;
+    margin-left: 450px;
+}
+#question p{
+    text-align: start;
+    padding: 20px;
+    font-size: x-large;
+}
+#question span{
+    padding-left: 700px;
+    font-size: x-large;
+}
+#question1{
+    width: 50%;
+    height: 80px;
+    background-color: rgb(50, 46, 46);
+    margin: 20px;
+    margin-left: 450px;
+}
+#question1 p{
+    text-align: start;
+    padding: 20px;
+    font-size: x-large;
+}
+#question1 span{
+    padding-left: 550px;
+    font-size: x-large;
+}
+#question2{
+    width: 50%;
+    height: 80px;
+    background-color: rgb(50, 46, 46);
+    margin: 20px;
+    margin-left: 450px;
+}
+#question2 p{
+    text-align: start;
+    padding: 20px;
+    font-size: x-large;
+}
+#question2 span{
+    padding-left: 650px;
+    font-size: x-large;
+}
+#question3{
+    width: 50%;
+    height: 80px;
+    background-color: rgb(50, 46, 46);
+    margin: 20px;
+    margin-left: 450px;
+}
+#question3 p{
+    text-align: start;
+    padding: 20px;
+    font-size: x-large;
+}
+#question3 span{
+    padding-left: 680px;
+    font-size: x-large;
+}
+#question4{
+    width: 50%;
+    height: 80px;
+    background-color: rgb(50, 46, 46);
+    margin: 20px;
+    margin-left: 450px;
+}
+#question4 p{
+    text-align: start;
+    padding: 20px;
+    font-size: x-large;
+}
+#question4 span{
+    padding-left: 550px;
+    font-size: x-large;
+}
+#question5{
+    width: 50%;
+    height: 80px;
+    background-color: rgb(50, 46, 46);
+    margin: 20px;
+    margin-left: 450px;
+}
+#question5 p{
+    text-align: start;
+    padding: 20px;
+    font-size: x-large;
+}
+#question5 span{
+    padding-left: 600px;
+    font-size: x-large;
+}
+#bottom p{
+    padding: 20px;
+    font-size: larger;
+}
+footer{
+    background-color: black;
+    height: 50vh;
+    
+}
+.container8{
+    width: 80%;
+    height: 40%;
+    margin-left: 150px;
+    position: absolute;
+    margin-top: 60px;
+    color: white;
+}
+.co8{
+    margin: 20px;
+}
+
+#c8fullwidth a{
+    color: white;
+}
+.c082{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+}
+.c082 a{
+    color: white;
+}
