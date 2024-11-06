@@ -1,0 +1,60 @@
+.postjob-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+  }
+  
+  .postjob-container h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .postjob-container input,
+  .postjob-container select,
+  .postjob-container textarea,
+  .postjob-container button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .postjob-container textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .postjob-container button {
+    background-color: #28a745;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .postjob-container button:hover {
+    background-color: #218838;
+  }
+  
+  .postjob-container input:focus,
+  .postjob-container select:focus,
+  .postjob-container textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  @media (max-width: 768px) {
+    .postjob-container {
+      padding: 15px;
+      max-width: 90%;
+    }
+  }
+  
